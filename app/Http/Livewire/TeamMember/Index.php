@@ -6,8 +6,13 @@ use Livewire\Component;
 
 class Index extends Component
 {
+    public function deleteMember(TeamMember $member)
+    {
+        $member->delete();
+    }
     public function render()
     {
-        return view('livewire.team-member.index');
+        $team = TeamMember::get();
+        return view('livewire.team-member.index', compact('team'));
     }
 }
