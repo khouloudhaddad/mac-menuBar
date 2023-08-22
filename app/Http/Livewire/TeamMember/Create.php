@@ -4,7 +4,6 @@ namespace App\Http\Livewire\TeamMember;
 
 use Livewire\Component;
 use Livewire\Attributes\Rule;
-use Livewire\Component;
 
 class Create extends Component
 {
