@@ -17,7 +17,8 @@ class TeamMemberFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => $this->faker->name,
+            'timezone' => $this->faker->randomElement(timezone_identifiers_list()),
         ];
     }
 }
