@@ -71,6 +71,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
   - Would you like to install the NativePHP NPM dependencies? - Select 'yes'
   - Would you like to start the NativePHP development server? - Select 'no'
 - php artisan native:serve
+- composer require livewire/livewire
+- php artisan livewire:make TeamMember/Index
+- php artisan livewire:make TeamMember/Create
+- php artisan livewire:make TeamMember/Update
 
 
 
